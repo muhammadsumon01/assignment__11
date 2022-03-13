@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+    font-family: 'Jost', sans-serif;
+    max-width: 1850px;
+    margin: auto;
+}
+
+.developer__container {
+    color: #090606;
+}
+
+.section__heading h1 {
+    text-align: center;
+    position: relative;
+}
+
+.section__heading h1::before {
+    content: "";
+    width: 100%;
+    background: url(images/Line\ 5heading__after.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 17px;
+    background-position: center;
+    background-size: 241px;
+    height: 100%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.developer__item__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.developer__item {
+    width: 8cm;
+    height: 100%;
+    margin: 30px;
+    background: white;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.08);
+
+}
+
+.developer__item img {
+    width: 100%;
+}
+
+.developer__name {
+    margin: 10px 15px 0px 15px;
+    position: relative;
+    z-index: 1;
+    color: #3A3838;
+    display: inline;
+}
+
+.developer__name::before {
+    content: "";
+    width: 110%;
+    height: 15px;
+    background: #D9FFBB;
+    position: absolute;
+    bottom: 3px;
+    z-index: -1;
+    left: -6px;
+}
+
+.developer__desc {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 0px 15px 15px 15px;
+    color: #3A3838;
+}
+
+
+/*--------------------------*/
+/* Student Data */
+/*--------------------------*/
+
+
+.student__table__container table {
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.student__table__container {
+    margin-top: 50px;
+}
+
+.student__table__container table .subject__number__heading th {
+    padding: 10px 20px;
+}
+
+.student__table__container table th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-size: 20px;
+    font-weight: normal;
+
+}
+
+.student__table__container table td {
+    padding: 10px;
+}
+
+.student__table__container table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.student__table__container table th {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.student__table__container table tr .sm {
+    padding: 10px 5px;
+}
+
+tbody tr:nth-child(2n) {
+    background: rgba(39, 243, 100, 0.308);
+}
+
+/*--------------------------*/
+/* Family Member Data */
+/*--------------------------*/
+.familyNumber__item__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.familyNumber__item {
+    width: 15cm;
+    height: 5cm;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px;
+    box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.08);
+}
+
+.familyNumber__item__desc {
+
+    padding-left: 20px;
+}
+
+.familyNumber__item__desc p {
+    padding: 0;
+    margin: 5px auto;
+    color: #3D3838;
+    font-size: 16px;
+}
+
+
+.familyNumber__item__desc__heading {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    color: #3D3838
+}
+
+.familyNumber__item__desc__heading::before {
+    content: "";
+    width: 105%;
+    height: 15px;
+    background: #5af32342;
+    position: absolute;
+    bottom: 3px;
+    z-index: -1;
+    left: -6px;
+}
